@@ -11,7 +11,7 @@ SAMPLES = []
 DUMMY_SAMPLE = DummySample()
 
 
-def setup(enabled=True):
+def setup(enabled=False):
     global ENABLED
     ENABLED = enabled
 
