@@ -15,6 +15,9 @@ def setup(enabled=False):
     global ENABLED
     ENABLED = enabled
 
+    # Reset current samples
+    reset()
+
 
 def reset():
     global SAMPLES
